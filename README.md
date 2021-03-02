@@ -10,3 +10,5 @@ git clone XXXX
 '''
 
 Installing e.g. T-coffee and running alignment
+
+Visualizing in a visualizer
