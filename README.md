@@ -145,5 +145,5 @@ Thus, using the `Hydrophobicity` coloring scheme, hydrophobic amino acids are co
 
 ### 5.3.6 Advanced exercise
 - Note that the two files `divergent_globins.fa` and `beta_globin.fa` contains difference sequences except for the human one (which is found in both files)
-- Use bash commands to combine the two files into a new file `combined_globin.fa`, making sure that the human sequence is only founds once. Thus, there should be 9 globin FASTA-entries in the file
+- Use bash commands to combine the two files into a new file `combined_globin.fa`, making sure that the human sequence is only found once. Thus, there should be 9 globin FASTA-entries in the file.
 - Perform multiple sequence alignment on the `combined_globin.fa` and compare your results with Fig. 6.7 (p. 216) in the book
