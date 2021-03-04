@@ -115,19 +115,19 @@ where `[uio-username]` is your UiO-username, and `[path-to-file]` is the path to
 ! Inspect and describe the results of the two alignments
 ```
 
-**TBD: Info on the sequences here!**
+**Some information about the two files `divergent_globins.fa` and `beta_globin.fa`**
+The two FASTA files we are working with are actually exactly the same set of files that are used in the book (Chapter 6) to exemplify multiple sequence alignments. The file `divergent_globins.fa` contains five distantly related globins and are discussed and visualized in Fig. 6.1, 6.2, 6.3. The file `beta_globin.fa` contains five closely related beta globin orthologs and are explained ans visualized in Fig. 6.4 and 6.5.
 
-### 5.3.5 Using Jalview to inspec the alignments
+### 5.3.5 Using Jalview to inspect the alignments
 In this exercise, we will use the Jalview program to look at the multiple sequence alignments.
 - Download and install Jalview from here: http://www.jalview.org/getdown/release/
 - Open Jalview
 - Exit from the default sequences and structures displayed
 
-- Choose `File` -> `Input alignment` -> `From file` and select the `beta_globin.aln` file
+- Choose `File` -> `Input alignment` -> `From file` and select the `divergent_globins.aln` file
 
 - Inpect the alignment
 - Try out different coloring schemes by selecting these under the `Colour` tab
-
 
 The coloring schemes are the following:
 ![colors](https://user-images.githubusercontent.com/5373069/109965215-f4706780-7cee-11eb-861d-1b91cb1ef78f.png)
@@ -136,8 +136,14 @@ Thus, using the `Hydrophobicity` coloring scheme, hydrophobic amino acids are co
 
 - Try to select individual sequences on the left. These can be moved around in the alignment using the arrow keys. Note what happens to the Quality scores in the bottom view.
 
-- **Load the `divergent_globins.aln` alignment file and explore these also**
-- What differences do you see between the alignments of the two different sets of globins?
+- **Compare your alignment with the multiple alignment in Fig. 6.3 on p. 211 in the book. Discuss similarities/differences between your results and the results in the book**
 
+- **Load the `beta_globins.aln` alignment file and explore these also**
+- **What differences do you see between the alignments of the two different sets of globins?**
 
-- Spend 30+ minutes exploring the options in Jalview. Note in particular the functionality under `Calculate`->`Pairwise `
+- Note: To save a particular view as an image, you can click `File`-> `Export image` -> `PNG`
+
+### 5.3.6 Advanced exercise
+- Note that the two files `divergent_globins.fa` and `beta_globin.fa` contains difference sequences except for the human one (which is found in both files)
+- Use bash commands to combine the two files into a new file `combined_globin.fa`, making sure that the human sequence is only founds once. Thus, there should be 9 globin FASTA-entries in the file
+- Perform multiple sequence alignment on the `combined_globin.fa` and compare your results with Fig. 6.7 (p. 216) in the book
