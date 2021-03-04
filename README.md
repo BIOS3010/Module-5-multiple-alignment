@@ -139,7 +139,7 @@ Thus, using the `Hydrophobicity` coloring scheme, hydrophobic amino acids are co
 - **Compare your alignment with the multiple alignment in Fig. 6.3 on p. 211 in the book. Discuss similarities/differences between your results and the results in the book**
 
 - **Load the `beta_globins.aln` alignment file and explore these also**
-- **What differences do you see between the alignments of the two different sets of globins?**
+- **Compare your alignment with the multiple alignment in Fig 6.4 (p. 213) in the book. Discuss similarities/differences between your results and the results in the book**
 
 - Note: To save a particular view as an image, you can click `File`-> `Export image` -> `PNG`
 
