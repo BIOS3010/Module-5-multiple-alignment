@@ -148,7 +148,9 @@ Thus, using the `Hydrophobicity` coloring scheme, hydrophobic amino acids are co
 - Use bash commands to combine the two files into a new file `combined_globin.fa`, making sure that the human sequence is only found once. Thus, there should be 9 globin FASTA-entries in the file.
 - Perform multiple sequence alignment on the `combined_globin.fa` and compare your results with Fig. 6.7 (p. 216) in the book
 
-### 5.3.7 A funny command-line tool:
+### 5.3.7 (Optional:) A funny command-line alignment viewer tool:
+For those who love working in the command line, you can download the `alan` tool on the UiO-server to colorize the alignment in the terminal itself. However, the Jalview tool is obviously a much more powerful tool.
+
 ```bash
 curl -O https://raw.githubusercontent.com/mpdunne/alan/master/alan
 chmod u+x alan
