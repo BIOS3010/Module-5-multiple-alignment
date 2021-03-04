@@ -128,6 +128,10 @@ In this exercise, we will use the Jalview program to look at the multiple sequen
 - Inpect the alignment
 - Try out different coloring schemes by selecting these under the `Colour` tab
 
+
 The coloring schemes are the following:
 ![colors](https://user-images.githubusercontent.com/5373069/109965215-f4706780-7cee-11eb-861d-1b91cb1ef78f.png)
 
+Thus, using the `Hydrophobicity` coloring scheme, hydrophobic amino acids are colored red, and hydrophilic ones are colored blue. Similarly, the `Buried Index` colors buried amino acids in blue and exposed amino acids in green.
+
+- Try to select individual sequences on the left. These can be moved around in the alignment using the arrow keys. Note what happens to the Quality scores in the bottom view.
