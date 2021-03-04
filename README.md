@@ -11,7 +11,7 @@ ssh [uio-username]@login.uio.no
 ```
 where `[uio-username]` is your UiO-username. 
 
-
+** Note: you will be asked to type in your password. Type this in and press enter. But be aware that you will not see the characters being typed in to the terminal. This is for security reasons, such that people looking should not get information about how many characters your password consists of.**
 
 ```diff
 ! Execute the above command in your terminal, filling in your login details
