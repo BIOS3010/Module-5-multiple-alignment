@@ -22,14 +22,16 @@ where `[uio-username]` is your UiO-username.
 
 ```bash
 cd ~/Desktop
-git clone XXXX
+mkdir Module5
+cd Module5
 ```
 
 ```diff
+! Explain the two commands above
 ! Can you recognize any files/folder?
 ```
 
-## 5.1 Installing T-Coffee on your UiO home area
+## 5.2 Installing T-Coffee on your UiO home area
 As we learned in [Module 1 (exercise 1.4.11)](https://github.com/BIOS3010/Module-1-Unix-Python/blob/main/exercises/Unix-2.md#1411-downloading-files-from-the-internet), we can download files from the internet using the `curl -O` command.
 
 - Execute the following command to download the T-Coffee program:
@@ -54,7 +56,15 @@ rm T-COFFEE_installer_Version_13.45.0.4846264_linux_x64.tar.gz
 ! Explain what happend in the three commands above
 ```
 
+Try to execute the the `t_coffee` program:
+```bash
+./t_coffee
+```
 
+If successful, there should be lots of options output to the screen
+
+
+## 5.2 Performing multiple sequence alignments on globin sequences
 These files can be used to create alignments:
 
 http://www.bioinfbook.org/wiley/3e/chapter6/WebDocument_6-01_5divergent_globins.htm
@@ -65,5 +75,3 @@ Running T-Coffee:
 ./t_coffee globin.fa
 ```
 
-
-Visualizing in a visualizer
