@@ -64,14 +64,30 @@ Try to execute the the `t_coffee` program:
 If successful, there should be lots of options output to the screen
 
 
-## 5.2 Performing multiple sequence alignments on globin sequences
-These files can be used to create alignments:
+## 5.3 Performing multiple sequence alignments on globin sequences
 
-http://www.bioinfbook.org/wiley/3e/chapter6/WebDocument_6-01_5divergent_globins.htm
-http://www.bioinfbook.org/wiley/3e/chapter6/WebDocument_6-02_5close_globins.htm
+### 5.3.1 Downloading files
+Download these two files to the `Module6` folder you are currently in:
+https://raw.githubusercontent.com/BIOS3010/Module-4-Pairwise-alignment-2/main/beta_globin.fa
+https://raw.githubusercontent.com/BIOS3010/Module-4-Pairwise-alignment-2/main/divergent_globins.fa
 
-Running T-Coffee:
+```diff
+! Inspect the content of the two files
+! What does the two files contain
+! What format are the two files in?
+```
+### 5.3.2 Performing multiple sequence alignments
+
+To run T-Coffee, you should use the following command:
+
 ```bash
-./t_coffee globin.fa
+./t_coffee [sequencefile]
+```
+where `[sequencefile]` is a FASTA-file containing multiple sequenced that you want to align.
+
+```diff
+! Perform a multiple alignment on each of the files we downloaded in step 5.3.1
+! What result files are generated?
 ```
 
+### 5.3.3 Visualizing and analyzing the multiple sequence alignments
