@@ -135,3 +135,9 @@ The coloring schemes are the following:
 Thus, using the `Hydrophobicity` coloring scheme, hydrophobic amino acids are colored red, and hydrophilic ones are colored blue. Similarly, the `Buried Index` colors buried amino acids in blue and exposed amino acids in green.
 
 - Try to select individual sequences on the left. These can be moved around in the alignment using the arrow keys. Note what happens to the Quality scores in the bottom view.
+
+- **Load the `divergent_globins.aln` alignment file and explore these also**
+- What differences do you see between the alignments of the two different sets of globins?
+
+
+- Spend 30+ minutes exploring the options in Jalview. Note in particular the functionality under `Calculate`->`Pairwise `
