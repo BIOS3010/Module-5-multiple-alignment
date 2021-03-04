@@ -13,7 +13,7 @@ where `[uio-username]` is your UiO-username.
 ```diff
 ! Execute the above command in your terminal, filling in your login details
 ! Can you recognize where you have logged in?
-```diff
+```
 
 - Then, execute the following commands
 
