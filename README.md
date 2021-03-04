@@ -3,7 +3,7 @@ In these exercises, we will try out tools for multiple sequence alignment. Even 
 
 We will focus on the T-Coffee multiple alignment tool, a widely used multiple-alignment tool. To install this, we will first have to learn how to log into an external server. 
 
-## 5.1 Logging into the UiO-network and your home space using the terminal
+## 5.1 Logging into the UiO-network and your home area using the terminal
 You already have a "home space" on the UiO-network that you can access whenever you login with your username and password on a UiO-stationed PC, or when you use remote desktop login. Similarly, we can access your account also through the terminal using the `ssh` command:
 
 ```bash
@@ -29,7 +29,10 @@ git clone XXXX
 ! Can you recognize any files/folder?
 ```
 
-# Installing T-coffee
+## 5.1 Installing T-Coffee on your UiO home area
+As we learned in [Module 1 (exercise 1.4.11)](https://github.com/BIOS3010/Module-1-Unix-Python/blob/main/exercises/Unix-2.md#1411-downloading-files-from-the-internet), we can download files from the internet using the `curl -O` command.
+
+- Execute the following command to download the T-Coffee program:
 ```bash
 curl -O http://tcoffee.org/Packages/Stable/Latest/T-COFFEE_installer_Version_13.45.0.4846264_linux_x64.tar.gz
 ```
