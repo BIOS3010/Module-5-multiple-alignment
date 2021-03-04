@@ -156,3 +156,4 @@ curl -O https://raw.githubusercontent.com/mpdunne/alan/master/alan
 chmod u+x alan
 ./alan divergent_globins.fa
 ```
+Type `q` to quit.
