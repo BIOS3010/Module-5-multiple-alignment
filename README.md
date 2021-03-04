@@ -38,8 +38,7 @@ curl -O http://tcoffee.org/Packages/Stable/Latest/T-COFFEE_installer_Version_13.
 ```
 
 ```diff
-! Decompress the file `T-COFFEE_installer_Version_13.45.0.4846264_linux_x64.tar.gz`
-! Hint: Look at exercise 1.4.12 from Module 1
+! Decompress the file `T-COFFEE_installer_Version_13.45.0.4846264_linux_x64.tar.gz` (Hint: exercise 1.4.12)
 ! Navigate into the decompressed folder
 ! Which files and folders are inside `T-COFFEE_installer_Version_13.45.0.4846264_linux_x64`?
 ```
@@ -54,6 +53,7 @@ rm T-COFFEE_installer_Version_13.45.0.4846264_linux_x64.tar.gz
 ```diff
 ! Explain what happend in the three commands above
 ```
+
 
 These files can be used to create alignments:
 
