@@ -107,4 +107,20 @@ where `[uio-username]` is your UiO-username, and `[path-to-file]` is the path to
 ! Verify that the four files are downloaded to the Module-6 folder on your computer
 ```
 
-### 5.3.3 Visualizing and analyzing the multiple sequence alignments
+### 5.3.4 Initial inspection of the multiple sequence alignments
+- Navigate to the two files `divergent_globins.html` and `beta_globin.html` on your computer using your normal, point-and-click way.
+- Double-click on the two files to look at the results
+
+```diff
+! Inspect and describe the results of the two alignments
+```
+
+**TBD: Info on the sequences here!**
+
+### 5.3.5 Using Jalview to inspec the alignments
+In this exercise, we will use the Jalview program to look at the multiple sequence alignments.
+- Download and install Jalview from here: http://www.jalview.org/getdown/release/
+- Open Jalview
+- Exit from the default sequences and structures displayed
+
+- Choose `File` -> `Input alignment` -> `From file` and select the `beta_globin.aln` file
