@@ -124,3 +124,10 @@ In this exercise, we will use the Jalview program to look at the multiple sequen
 - Exit from the default sequences and structures displayed
 
 - Choose `File` -> `Input alignment` -> `From file` and select the `beta_globin.aln` file
+
+- Inpect the alignment
+- Try out different coloring schemes by selecting these under the `Colour` tab
+
+The coloring schemes are the following:
+![colors](https://user-images.githubusercontent.com/5373069/109965215-f4706780-7cee-11eb-861d-1b91cb1ef78f.png)
+
