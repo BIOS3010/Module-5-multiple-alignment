@@ -91,4 +91,20 @@ where `[sequencefile]` is a FASTA-file containing multiple sequenced that you wa
 ! What result files are generated?
 ```
 
+### 5.3.3 Moving files from an external server to your own computer
+The files produced by the T-Coffee program (`t_coffee`) are now placed inside the `Module6` folder on your UiO-Desktop. You could inspect these files visually using remote desktop, for example. However, there is a nice and easy way to transfer files from an external server to your own computer using the terminal command `scp`.
+
+To do this:
+- Copy the full path to the file (on the server) you want to transfer (Hint: use `pwd`)
+- Open up a new Tab (or a new terminal) on your local computer, leaving the terminal window where you logged into your UiO-account open.
+- Create a new folder called `Module-6` inside the `BIOS3010` folder in your home directory, and navigate into it
+- In the new tab (or terminal window) type in: `scp [uio-username]@login.uio.no:[path-to-file] .
+where `[uio-username]` is your UiO-username, and `[path-to-file]` is the path to the file you copied (just paste it in)
+- Execute the command
+
+```diff
+! Perform the above steps on the files ending with .aln and .html (total 4 files)
+! Verify that the four files are downloaded to the Module-6 folder on your computer
+```
+
 ### 5.3.3 Visualizing and analyzing the multiple sequence alignments
