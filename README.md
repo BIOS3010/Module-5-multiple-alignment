@@ -116,7 +116,7 @@ where `[uio-username]` is your UiO-username, and `[path-to-file]` is the path to
 ```
 
 **Some information about the two files `divergent_globins.fa` and `beta_globin.fa`**
-The two FASTA files we are working with are actually exactly the same set of files that are used in the book (Chapter 6) to exemplify multiple sequence alignments. The file `divergent_globins.fa` contains five distantly related globins and are discussed and visualized in Fig. 6.1, 6.2, 6.3. The file `beta_globin.fa` contains five closely related beta globin orthologs and are explained ans visualized in Fig. 6.4 and 6.5.
+The two FASTA files we are working with are actually exactly the same set of files that are used in the book (Chapter 6) to exemplify multiple sequence alignments. The file `divergent_globins.fa` contains five distantly related globins and are discussed and visualized in Fig. 6.1, 6.2, 6.3. The file `beta_globin.fa` contains five closely related beta globin orthologs and are explained ans visualized in Fig. 6.4 and 6.5. Read more about these sequences in the book, if you want to know more.
 
 ### 5.3.5 Using Jalview to inspect the alignments
 In this exercise, we will use the Jalview program to look at the multiple sequence alignments.
