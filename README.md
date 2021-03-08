@@ -68,9 +68,8 @@ If successful, there should be lots of options output to the screen
 
 ### 5.3.1 Downloading files
 Download these two files to the `Module5` folder you are currently in:
-
-- https://raw.githubusercontent.com/BIOS3010/Module-4-Pairwise-alignment-2/main/beta_globin.fa
-- https://raw.githubusercontent.com/BIOS3010/Module-4-Pairwise-alignment-2/main/divergent_globins.fa
+- https://raw.githubusercontent.com/BIOS3010/Module-5-multiple-alignment/main/beta_globin.fa
+- https://raw.githubusercontent.com/BIOS3010/Module-5-multiple-alignment/main/divergent_globins.fa
 
 ```diff
 ! Inspect the content of the two files
