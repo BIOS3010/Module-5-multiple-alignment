@@ -21,7 +21,7 @@ where `[uio-username]` is your UiO-username.
 - Then, execute the following commands
 
 ```bash
-cd ~/Desktop
+cd ~
 mkdir Module5
 cd Module5
 ```
@@ -67,7 +67,7 @@ If successful, there should be lots of options output to the screen
 ## 5.3 Performing multiple sequence alignments on globin sequences
 
 ### 5.3.1 Downloading files
-Download these two files to the `Module6` folder you are currently in:
+Download these two files to the `Module5` folder you are currently in:
 
 - https://raw.githubusercontent.com/BIOS3010/Module-4-Pairwise-alignment-2/main/beta_globin.fa
 - https://raw.githubusercontent.com/BIOS3010/Module-4-Pairwise-alignment-2/main/divergent_globins.fa
@@ -92,7 +92,7 @@ where `[sequencefile]` is a FASTA-file containing multiple sequenced that you wa
 ```
 
 ### 5.3.3 Moving files from an external server to your own computer
-The files produced by the T-Coffee program (`t_coffee`) are now placed inside the `Module6` folder on your UiO-Desktop. You could inspect these files visually using remote desktop, for example. However, there is a nice and easy way to transfer files from an external server to your own computer using the terminal command `scp`.
+The files produced by the T-Coffee program (`t_coffee`) are now placed inside the `Module5` folder on your UiO-account. You could inspect these files visually using remote desktop, for example. However, there is a nice and easy way to transfer files from an external server to your own computer using the terminal command `scp`.
 
 To do this:
 - Copy the full path to the file (on the server) you want to transfer (Hint: use `pwd`)
