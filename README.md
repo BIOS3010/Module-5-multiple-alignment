@@ -9,7 +9,7 @@ You already have a "home space" on the UiO-network that you can access whenever 
 ```bash
 ssh [username]@login.uio.no
 ```
-where `[username]` is your UiO-username. 
+where `[username]` is your UiO-username (do not include the brackets!)
 
 **Note: you will be asked to type in your password. Type this in and press enter. But be aware that you will not see the characters being typed in to the terminal. This is for security reasons, such that people looking should not get information about how many characters your password consists of.**
 
