@@ -108,7 +108,7 @@ where `[uio-username]` is your UiO-username, and `[path-to-file]` is the path to
 
 ### 5.3.4 Initial inspection of the multiple sequence alignments
 - Navigate to the two files `divergent_globins.html` and `beta_globin.html` on your computer using your normal, point-and-click way.
-- Double-click on the two files to look at the results
+- Double-click on the two files to look at the results (if the files do not open in a web browser, you might have to right click on the file and choose to open it in a web browser)
 
 ```diff
 ! Inspect and describe the results of the two alignments
