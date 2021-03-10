@@ -97,9 +97,10 @@ To do this:
 - Copy the full path to the file (on the server) you want to transfer (Hint: use `pwd`)
 - Open up a new Tab (or a new terminal) on your local computer, leaving the terminal window where you logged into your UiO-account open.
 - Create a new folder called `Module-5` inside the `BIOS3010` folder in your home directory, and navigate into it
-- In the new tab (or terminal window) type in: `scp [uio-username]@login.uio.no:[path-to-file] .
+- In the new tab (or terminal window) type in: `scp [uio-username]@login.uio.no:[path-to-file] .`
 where `[uio-username]` is your UiO-username, and `[path-to-file]` is the path to the file you copied (just paste it in)
 - Execute the command
+- NB: Remember the dot (.) at the end of the scp command. This dot tells the command to copy the files to where you are (it could instead have been a path on your computer).
 
 ```diff
 ! Perform the above steps on the files ending with .aln and .html (total 4 files)
