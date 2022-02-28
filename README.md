@@ -59,7 +59,7 @@ rm T-COFFEE_installer_Version_13.45.0.4846264_linux_x64.tar.gz
 First, set this environment variable to allow t_coffee to properly run (this is important!):
 ```bash
 export MAX_N_PID_4_TCOFFEE=2000000
-
+```
 
 Then, try to execute the the `t_coffee` program:
 ```bash
