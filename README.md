@@ -9,9 +9,14 @@ You already have a "home space" on the UiO-network that you can access whenever 
 ```bash
 ssh [username]@login.uio.no
 ```
-where `[username]` is your UiO-username (do not include the brackets!)
+where `[username]` is your UiO-username (do not include the brackets!). If the above command fails, try this command instead:
+
+```bash 
+ssh [username]@smaug.uio.no
+```
 
 **Note: you will be asked to type in your password. Type this in and press enter. But be aware that you will not see the characters being typed in to the terminal. This is for security reasons, such that people looking should not get information about how many characters your password consists of.**
+
 
 ```diff
 ! Execute the above command in your terminal, filling in your login details
@@ -36,7 +41,7 @@ As we learned in [Module 1 (exercise 1.4.11)](https://github.com/BIOS3010/Module
 
 - Execute the following command to download the T-Coffee program:
 ```bash
-curl -O https://tcoffee.org/Packages/Stable/Latest/T-COFFEE_installer_Version_13.45.0.4846264_linux_x64.tar.gz
+curl -O https://s3.eu-central-1.amazonaws.com/tcoffee-packages/Stable/Latest/T-COFFEE_installer_Version_13.45.0.4846264_linux_x64.tar.gz
 ```
 
 ```diff
