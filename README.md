@@ -61,18 +61,21 @@ rm T-COFFEE_installer_Version_13.45.0.4846264_linux_x64.tar.gz
 ! Explain what happend in the three commands above
 ```
 
-First, set this environment variable to allow t_coffee to properly run (this is important!):
+***IMPORTANT:*** Next, before you run T-Coffee at all, you first have to run the following command:
 ```bash
 export MAX_N_PID_4_TCOFFEE=$(sysctl -n kernel.pid_max)
 ```
+*You don't need to understand this command, but if you are curious: All processess (programs) running on a computer are identified by a Process ID (PID). The version of T-Coffee we use has a known bug in operating systems like the one installed on the UiO server we are using. T-Coffee essentially assumes wrongly what the highest possible PID is, so we need to ask that information from the UiO server itself (`sysctl -n kernel.pid_max`) and then force T-Coffee to use that value (`export MAX_N_PID_4_TCOFFEE`).*
 
-Then, try to execute the the `t_coffee` program:
+Having run the above command, you can now try to execute the the `t_coffee` program:
 ```bash
 ./t_coffee
 ```
 
-If successful, there should be lots of options output to the screen
-
+If successful, there should be lots of options output to the screen.
+```diff
+! Verify that there is no "ERROR" message at the bottom of the output when you ran the T-Coffee command.
+```
 
 ## 5.3 Performing multiple sequence alignments on globin sequences
 
