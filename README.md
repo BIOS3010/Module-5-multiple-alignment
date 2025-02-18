@@ -41,7 +41,7 @@ As we learned in [Module 1 (exercise 1.4.11)](https://github.com/BIOS3010/Module
 
 - Execute the following command to download the T-Coffee program:
 ```bash
-curl -O https://s3.eu-central-1.amazonaws.com/tcoffee-packages/Stable/Latest/T-COFFEE_installer_Version_13.45.0.4846264_linux_x64.tar.gz
+curl -O https://s3.eu-central-1.amazonaws.com/tcoffee-packages/Archives/T-COFFEE_installer_Version_13.45.0.4846264_linux_x64.tar.gz
 ```
 
 ```diff
