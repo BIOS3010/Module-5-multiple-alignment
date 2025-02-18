@@ -61,7 +61,7 @@ rm T-COFFEE_installer_Version_13.45.0.4846264_linux_x64.tar.gz
 ! Explain what happend in the three commands above
 ```
 
-***IMPORTANT:*** Next, before you run T-Coffee at all, you first have to run the following command:
+***IMPORTANT:*** Next, before you run T-Coffee at all, you first have to run the following command. You have to do this in every terminal session where you want to use T-Coffee, i.e. if you later log out and back into the UiO server, you need to repeat this before running T-Coffee:
 ```bash
 export MAX_N_PID_4_TCOFFEE=$(sysctl -n kernel.pid_max)
 ```
